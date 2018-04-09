@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<div id="feiyun" style="min-width:400px;height:500px">
+	<script type="text/javascript">
+		$.get('/pc/feiyun').done(function (data) {
+			data = jQuery.parseJSON(data);
+			new Highcharts.Chart(data);
+		});
+	</script>
+</div>
+{% endblock %}

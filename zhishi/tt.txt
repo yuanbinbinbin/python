@@ -1,0 +1,7 @@
+url = "http://fex.sa.sogou.com/api/ans?key=zscr&_="+str(times)
+headers = {
+	'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; vivo X110 Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/39.0.0.0 Mobile Safari/537.36 SogouSearch Android1.0 version3.0 AppVersion/5903',
+	'Referer':'http://fex.sa.sogou.com/',
+	'x-wap-profile': 'http://218.249.47.94/Xianghe/MTK_LTE_Phone_L_UAprofile.xml',
+	'Cookie':'IPLOC=CN1100; dt_ssuid=7060071477; SNUID=7864148FEAEF8835FEB76EECEA18FE0B; SUID=928EFE651810990A000000005A5D6D73; SUV=00CBC48965FE8E925A5D6D74C113D530; wuid=AAEufZGzHQAAAAqZElH+xwcAzQM=; adlocation=100; usid=kvu3QgJnVrBRQl6m; FREQUENCY=1516072308206_2; ld=tkllllllll2zgQC1lllllVINbgolllllBKfn6kllllwlllll9llll5@@@@@@@@@@; gpsloc=%E5%8C%97%E4%BA%AC%E5%B8%82%09%E6%B5%B7%E6%B7%80%E5%8C%BA; qqpos=116.272|39.954; SGS_FE_WAID=WAID2018011600000000000000166883; vrpos=TsxU/VVWHvUEwCNDYdt7tw=='
+}
